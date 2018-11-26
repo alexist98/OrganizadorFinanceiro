@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "776032866348",
+    "firebase_url": "https://organizador-financeiro-58d6c.firebaseio.com",
+    "project_id": "organizador-financeiro-58d6c",
+    "storage_bucket": "organizador-financeiro-58d6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776032866348:android:b43c47e77803fa6e",
+        "android_client_info": {
+          "package_name": "com.example.alexistoigo.organizadorfinanceiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776032866348-6s44n180p4jpf7vu55vm7essj2arcmqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alexistoigo.organizadorfinanceiro",
+            "certificate_hash": "f25d07daa28739b764eb5e8497efcc0115e4c425"
+          }
+        },
+        {
+          "client_id": "776032866348-6met3dliut5sbguitfqjilg3floj7phu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgjf-ImOe2dWPFSCYsdx4kyUvqD4W-U10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776032866348-6met3dliut5sbguitfqjilg3floj7phu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
