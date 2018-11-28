@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(intent, TEXT_REQUEST)
 
         }
-
+a
 
         fun btCadastrar (view: View){
             val intent = Intent(this, CadastroActivity::class.java)
