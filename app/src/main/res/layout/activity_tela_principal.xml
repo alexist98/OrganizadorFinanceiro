@@ -27,6 +27,7 @@
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="10dp"
@@ -65,15 +66,37 @@
             fab:menu_labels_position="left"
             fab:menu_openDirection="up"
             fab:menu_backgroundColor="@android:color/transparent"
-            fab:menu_fab_label="your_label_here">
+            fab:menu_fab_label="Menu">
 
         <com.github.clans.fab.FloatingActionButton
-                android:id="@+id/menu_item"
+                android:id="@+id/menu_despesa"
+                android:onClick="adicionarDespesa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_remove_black_24dp"
+                fab:fab_colorNormal="@color/colorPrymaryDespesa"
+                fab:fab_size="mini"
+                fab:fab_label="Despesa"/>
+
+        <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/menu_receita"
+                android:onClick="adicionarReceita"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_add_black_24dp"
+                fab:fab_colorNormal="@color/colorPrymaryReceita"
                 fab:fab_size="mini"
-                fab:fab_label="Menu item 1"/>
+                fab:fab_label="Receita"/>
+
+        <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/menu_about"
+                android:onClick="about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info_black_24dp"
+                fab:fab_colorNormal="@color/colorPrymaryAbout"
+                fab:fab_size="mini"
+                fab:fab_label="About"/>
 
     </com.github.clans.fab.FloatingActionMenu>
 

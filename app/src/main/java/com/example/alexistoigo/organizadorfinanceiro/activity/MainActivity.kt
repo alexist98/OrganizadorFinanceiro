@@ -22,12 +22,26 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra(EXTRA_MESSAGE, message)
             startActivityForResult(intent, TEXT_REQUEST)
 
-        }*/
+        }
 
 
         fun btCadastrar (view: View){
             val intent = Intent(this, CadastroActivity::class.java)
             startActivity(intent)
+        }*/
+
+        fun adicionarReceita(view: View) {
+
         }
+
+        fun adicionarDespesa(view: View) {
+
+        }
+
+        fun about(view: View) {
+
+        }
+
+
     }
 }

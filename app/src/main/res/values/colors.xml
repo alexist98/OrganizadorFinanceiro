@@ -3,4 +3,19 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    //cores despesas*/
+    <color name="colorPrymaryDespesa">#FF706A</color>
+    <color name="colorPrymaryDarkDespesa">#E66560</color>
+    <color name="colorAccentDespesa">#FF706A</color>
+
+    //CORES RECEEITAS
+    <color name="colorPrymaryReceita">#00d39e</color>
+    <color name="colorPrimaryDarkReceita">#00be8b</color>
+    <color name="colorAccentReceita">#00d39e</color>
+
+
+    //cor about
+    <color name="colorPrymaryAbout">#ffffff</color>
+
 </resources>
