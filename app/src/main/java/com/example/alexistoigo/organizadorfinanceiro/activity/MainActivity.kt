@@ -30,18 +30,6 @@ a
             startActivity(intent)
         }*/
 
-        fun adicionarReceita(view: View) {
-
-        }
-
-        fun adicionarDespesa(view: View) {
-
-        }
-
-        fun about(view: View) {
-
-        }
-
 
     }
 }

@@ -25,6 +25,10 @@
                 android:label="@string/title_activity_tela_principal"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name=".activity.ReceitasActivity">
+        </activity>
+        <activity android:name=".activity.DespesasActivity">
+        </activity>
     </application>
 
 </manifest>
